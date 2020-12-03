@@ -2,7 +2,6 @@
 import asyncio
 import configparser
 import random
-import os
 
 import discord
 from discord.ext import commands
@@ -12,10 +11,9 @@ import mytype
 import scorekeep
 from vsimage import multi_imageconcat
 
-token = os.getenv('TOKEN')
-
 bot = commands.Bot(command_prefix="-")
 
+token = "Nzjdslkfjsdklfjsdlfsd.fdsfjksldjxckjvdskf.sdjfkl"
 
 @bot.event
 async def on_ready():
